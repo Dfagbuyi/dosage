@@ -1,0 +1,81 @@
+body{
+    color:#ffb8b8;
+    background-color: #4b4b4b;
+}
+label {
+    height: 50px;
+    font-family: 'Tajawal', sans-serif;
+    padding-bottom: 50px;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+#registerSubmit {
+    float: left;
+    clear: both;
+    margin-left: 10%;
+    width: 5%;
+}
+
+.brandName {
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #2f3640;
+}
+.value{
+    display: hidden;
+    color:#f5f6fa;
+}
+.index{
+    display: hidden;
+}
+
+.use {
+    text-align: center;
+
+}
+#issueBox{
+    
+}
+
+.dosage {
+    text-align: center;
+    color:#e1b12c;
+    display: none;
+
+}
+
+.warnings {
+    text-align: center;
+    color: #c23616;
+    display: none;
+}
+
+#error {
+    text-align: center;
+    width: 100%;
+    color: red;
+
+}
+
+.listBox {
+    display: block;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid #2f3640;
+    background-color: #f5f6fa;
+    opacity: 0.7;
+}
+.listBox:hover{
+    opacity: 1;
+}
+
+
